@@ -1,0 +1,20 @@
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start; /* Adjust as needed */
+    align-content: flex-start; /* Add this to align columns at the top */
+}
+
+.color-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Adjust as needed */
+}
+
+.color-item {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
